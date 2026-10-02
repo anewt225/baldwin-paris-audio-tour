@@ -1,0 +1,129 @@
+{
+  "title": "James Baldwin’s Saint-Germain",
+  "voice": "en-US-AndrewMultilingualNeural",
+  "stops": [
+    {
+      "id": "01-hotel-verneuil",
+      "title": "Hôtel Verneuil",
+      "sub": "Where the exile began",
+      "addr": "8 Rue de Verneuil, 75007 Paris",
+      "lat": 48.857335,
+      "lng": 2.331428,
+      "walk": "Walk east toward Boulevard Saint-Germain — about 8 minutes to the Café de Flore.",
+      "text": [
+        "Welcome. James Baldwin landed in Paris in November 1948 with about forty dollars in his pocket. He was twenty-four. Later he said it wasn't so much that he chose France. He simply had to get out of America.",
+        "This narrow street of seventeenth-century facades is where he lived in his early, broke years, at the Hôtel Verneuil, among a loose crew of struggling writers and artists. The building is a boutique hotel now, and it leans into the Baldwin connection.",
+        "The story attached to this place is about kindness. When Baldwin fell seriously ill in the winter of 1949, the hotel's owner, a Corsican woman named Madame Dumont, nursed him and let the rent slide for months. In a city he often described as coolly indifferent, that mattered.",
+        "Keep that word in mind: indifference. For a Black, gay man who had been watched and policed his whole life in New York, Parisian indifference felt a lot like freedom. Next, we walk to the café where he actually wrote."
+      ]
+    },
+    {
+      "id": "02-cafe-de-flore",
+      "title": "Café de Flore",
+      "sub": "The upstairs room",
+      "addr": "172 Boulevard Saint-Germain, 75006 Paris",
+      "lat": 48.854144,
+      "lng": 2.332631,
+      "walk": "Cross to the neighboring corner — about 1 minute to Les Deux Magots.",
+      "text": [
+        "Baldwin's hotel rooms were cold and badly lit, so he did what writers here have always done. He came to the café. In his own telling, he would take his notebook upstairs at the Flore, drink a lot of coffee through the day and, as evening came on, a lot of alcohol.",
+        "Upstairs here, he kept working on the novel he had carried from Harlem for years, about his stepfather, the storefront church, and the boy he had been. It became Go Tell It on the Mountain, published in 1953.",
+        "The Flore mattered for another reason. In the late 1940s and fifties, Saint-Germain was the center of male homosexual life in Paris, and the Flore was one of the cafés where gay men gathered fairly openly. Not legally free, not fully safe, but visible in a way that was close to unthinkable in America.",
+        "It was in this neighborhood, in 1949, that Baldwin met Lucien Happersberger, a young Swiss painter who became one of the great loves of his life. If you can, go upstairs and look out the window. This is the view of a man allowed, for once, to be all of himself at the same table."
+      ]
+    },
+    {
+      "id": "03-les-deux-magots",
+      "title": "Les Deux Magots",
+      "sub": "The first night",
+      "addr": "6 Place Saint-Germain-des-Prés, 75006 Paris",
+      "lat": 48.854069,
+      "lng": 2.333063,
+      "walk": "Cross Boulevard Saint-Germain — Brasserie Lipp is directly opposite, about 1 minute.",
+      "text": [
+        "On Baldwin's first day in Paris, he came here to meet Richard Wright, the most famous Black writer in the world, author of Native Son. Wright had helped Baldwin get a fellowship back in New York and had become a mentor. Now he was the senior figure of Black expatriate Paris.",
+        "Around these tables you'd have found a remarkable community: Wright, the novelist Chester Himes, the cartoonist Ollie Harrington, the writer William Gardner Smith, and later the painter Beauford Delaney, Baldwin's spiritual father, who had taken him in as a teenager in Greenwich Village.",
+        "Why cafés? Partly money and cold rooms. But also because for Black Americans in Paris, cafés and restaurants became the places to gather, argue, and look after one another. They could sit down anywhere. Nobody moved away.",
+        "But Baldwin was not one to sit quietly at the master's feet. Across the boulevard is where that friendship broke."
+      ]
+    },
+    {
+      "id": "04-brasserie-lipp",
+      "title": "Brasserie Lipp",
+      "sub": "The quarrel with Richard Wright",
+      "addr": "151 Boulevard Saint-Germain, 75006 Paris",
+      "lat": 48.853753,
+      "lng": 2.332411,
+      "walk": "Head east on Boulevard Saint-Germain to the Odéon crossroads — about 5 minutes.",
+      "text": [
+        "In 1949, Baldwin published an essay called Everybody's Protest Novel, first in a small Paris magazine called Zero. It attacked Uncle Tom's Cabin, and, at the very end, it turned on Native Son. Baldwin argued that protest fiction reduces Black people to a social problem instead of full human beings.",
+        "Wright took it as betrayal. Baldwin later recalled that the confrontation came here, at the Brasserie Lipp, where Wright accused him of trying to destroy him. Baldwin's position was that he was trying to find his own voice. Both were probably right.",
+        "They never fully repaired it. When Wright died in Paris in 1960, Baldwin wrote a long, loving, merciless essay called Alas, Poor Richard. In it, he faulted Wright for celebrating Paris as a city of refuge, while saying little about how France treated its own colonial subjects.",
+        "Which brings us to the part of this story Baldwin's generation couldn't ignore for long."
+      ]
+    },
+    {
+      "id": "05-carrefour-de-l-odeon",
+      "title": "Carrefour de l'Odéon",
+      "sub": "Whose city of refuge?",
+      "addr": "Carrefour de l'Odéon, 75006 Paris",
+      "lat": 48.852169,
+      "lng": 2.338698,
+      "walk": "Walk south up Rue de Condé to Rue de Tournon — about 4 minutes.",
+      "text": [
+        "Stand at this crossroads for a moment. The Paris that welcomed Black Americans was the capital of a colonial empire. From 1954 to 1962, France fought a brutal war to keep Algeria, and in these same streets Algerians and other colonial subjects faced police raids, identity checks, and contempt.",
+        "Black Americans noticed an uncomfortable fact. With an American passport, they were often treated better than Africans and Arabs were. The novelist William Gardner Smith, a regular in this neighborhood, built a whole novel around it: The Stone Face, published in 1963.",
+        "In it, a Black American expatriate sees the police treat him politely while hauling off an Algerian. Later, near the Odéon, the Algerian's friends taunt him, asking how it feels to be a white man. It's fiction, but it captured a real reckoning.",
+        "Baldwin felt it too. He wrote that Paris was a refuge for people like him, armed with American passports, but not for the people France itself had colonized. Many of these writers came to see racism as a global system, and the Algerian struggle reframed how they saw the civil rights fight back home."
+      ]
+    },
+    {
+      "id": "06-cafe-de-tournon",
+      "title": "Café de Tournon",
+      "sub": "The heart of Black Paris",
+      "addr": "18 Rue de Tournon, 75006 Paris",
+      "lat": 48.849503,
+      "lng": 2.337132,
+      "walk": "Walk through the Luxembourg Gardens to Boulevard du Montparnasse — about 20 minutes. A lovely stretch.",
+      "text": [
+        "By the early 1950s, this café at the foot of the Luxembourg Gardens had become the unofficial clubhouse of Black American Paris. Ollie Harrington, the cartoonist and a sharp storyteller, held court here. Wright and Chester Himes were regulars, and the arguments were legendary.",
+        "Baldwin came by, though not as often as the others. After the split with Wright, and with his own sharper take on France, he moved somewhat apart from this crowd. Still, this was the world that made his Paris possible: a community of Black artists who had fled the same country and recognized each other.",
+        "It also mattered that Paris celebrated Black American culture, above all jazz. Musicians like Sidney Bechet and Kenny Clarke made lives here and were treated as artists, not entertainers on the back stairs. That respect was part of the air Baldwin breathed.",
+        "Before you leave, look at the Art Deco details inside. Then take the long way through the gardens. We end in Montparnasse."
+      ]
+    },
+    {
+      "id": "07-le-select",
+      "title": "Le Select",
+      "sub": "Giovanni's Room",
+      "addr": "99 Boulevard du Montparnasse, 75006 Paris",
+      "lat": 48.842619,
+      "lng": 2.328385,
+      "walk": "Main tour complete. Nearest metro: Vavin (lines 4 and 6). <br><br><b>★ Optional bonus:</b> the Médiathèque James Baldwin in the 19th, ~40 min by metro — line 4 from Vavin to Châtelet, then line 11 to Place des Fêtes. Closed Mondays; check hours before you go.",
+      "text": [
+        "Le Select, open since 1923, was one of Baldwin's Montparnasse haunts, and it's often linked with the writing of his second novel, Giovanni's Room.",
+        "Published in 1956, Giovanni's Room tells the story of David, a white American in Paris, and his love affair with Giovanni, an Italian bartender. Baldwin's American publisher reportedly told him to burn it. A Black writer, they assumed, should write about race, and certainly not about two men in love.",
+        "Baldwin refused. He made the characters white precisely so readers couldn't file the book under the race problem. They would have to face love, shame, and desire head on. It became one of the foundational novels of gay literature.",
+        "That book doesn't exist without this neighborhood: the cafés where gay men could be seen, the Black expatriates who made exile bearable, and the distance from America that let him see it clearly. Baldwin once wrote that he loved America more than any other country in the world, and for exactly that reason insisted on the right to criticize her perpetually.",
+        "Thank you for walking with him. Order a drink, and if you have one with you, open Giovanni's Room. If you have the energy for one more stop, there's an optional bonus across town."
+      ]
+    },
+    {
+      "id": "08-mediatheque-james-baldwin",
+      "title": "Médiathèque James Baldwin",
+      "sub": "Bonus · Paris names him",
+      "addr": "10 bis Rue Henri Ribière, 75019 Paris",
+      "lat": 48.876601,
+      "lng": 2.396727,
+      "bonus": true,
+      "walk": "Nearest metro: Place des Fêtes (lines 7bis and 11). Closed Mondays. Hours vary, so check paris.fr before going.",
+      "text": [
+        "Welcome to the bonus stop, far from the cafés of Saint-Germain, up on the hills of the 19th arrondissement. This is Paris's public library named for James Baldwin. It opened in June 2024, the summer of his hundredth birthday. He was born in Harlem on the second of August, 1924.",
+        "The site is part of the story. The library was built in a former high school that for years was occupied by migrants and later served as an emergency shelter. Today it shares the site with the city's Maison des Réfugiés, a center for refugees and exiles.",
+        "That pairing is deliberate. The collection leans into the themes of Baldwin's life: exile, LGBTQ+ cultures, feminism, and social inclusion. It's a light-filled wooden building, designed by the architect Philippe Madec, and it includes dedicated space for deaf visitors.",
+        "Think back to the Odéon stop, and Baldwin's point that Paris was a refuge for Americans with passports but not for the people France had colonized. Here, the city attached his name to a place built around exactly those outsiders. It's a fitting place for his name.",
+        "France did honor him in his lifetime too. In 1986, a year before he died at his home in Saint-Paul-de-Vence in the south of France, President François Mitterrand made him a commander of the Légion d'honneur. Go inside, find the Baldwin shelf, and say hello."
+      ]
+    }
+  ]
+}

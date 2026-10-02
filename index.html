@@ -2,58 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Baldwin's Saint-Germain — Audio Tour</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Inter:wght@400;500;600&display=swap');
-*{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#14110f;--card:#1e1a17;--line:#3a322b;--gold:#d4a24c;--cream:#f2e8d8;--mute:#a89a88}
-body{background:var(--bg);color:var(--cream);font-family:Inter,system-ui,sans-serif;min-height:100vh;
-background-image:radial-gradient(circle at 20% 0%,#2a1f14 0%,transparent 50%),radial-gradient(circle at 100% 100%,#1f1a2a 0%,transparent 45%)}
-.wrap{max-width:560px;margin:0 auto;padding:22px 18px 120px}
-header{text-align:center;padding:18px 0 22px}
-.eyebrow{font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold)}
-h1{font-family:'Playfair Display',serif;font-size:30px;line-height:1.15;margin:10px 0 8px}
-h1 em{color:var(--gold)}
-.intro{color:var(--mute);font-size:14px;line-height:1.55}
-.meta{display:flex;justify-content:center;gap:14px;margin-top:12px;font-size:12px;color:var(--mute)}
-.btn{border:1px solid var(--line);background:transparent;color:var(--cream);padding:10px 14px;border-radius:999px;
-font:500 13px Inter,sans-serif;cursor:pointer;transition:.2s;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
-.btn:hover{border-color:var(--gold);color:var(--gold)}
-.btn.primary{background:var(--gold);color:#1a140c;border-color:var(--gold);font-weight:600}
-.btn.primary:hover{filter:brightness(1.08);color:#1a140c}
-.route{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:16px 0 24px}
-.dots{display:flex;gap:6px;justify-content:center;margin-bottom:18px}
-.dot{width:28px;height:28px;border-radius:50%;border:1px solid var(--line);background:none;color:var(--mute);
-font:600 12px Inter;cursor:pointer;transition:.2s}
-.dot.on{background:var(--gold);color:#1a140c;border-color:var(--gold)}
-.dot.done{border-color:var(--gold);color:var(--gold)}
-.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;animation:in .35s ease}
-@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-.num{font-size:12px;color:var(--gold);letter-spacing:.15em;text-transform:uppercase}
-.card h2{font-family:'Playfair Display',serif;font-size:26px;margin:6px 0 4px}
-.sub{font-style:italic;font-family:'Playfair Display',serif;color:var(--mute);font-size:15px}
-.addr{margin:14px 0;font-size:13px;color:var(--mute);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
-.text{line-height:1.7;font-size:15px;color:#e6dccb}
-.text p{margin-bottom:12px}
-.text p.speaking{color:var(--cream);border-left:2px solid var(--gold);padding-left:10px;margin-left:-12px}
-.walk{margin-top:16px;padding:12px 14px;border-radius:12px;background:#171310;border:1px dashed var(--line);font-size:13px;color:var(--mute)}
-.walk b{color:var(--gold)}
-.player{position:fixed;left:0;right:0;bottom:0;background:rgba(20,17,15,.94);backdrop-filter:blur(10px);
-border-top:1px solid var(--line);padding:12px 16px calc(12px + env(safe-area-inset-bottom))}
-.pin{max-width:560px;margin:0 auto;display:flex;align-items:center;gap:10px}
-.play{width:52px;height:52px;border-radius:50%;border:none;background:var(--gold);color:#1a140c;font-size:20px;cursor:pointer;flex-shrink:0}
-.nav{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:none;color:var(--cream);font-size:16px;cursor:pointer}
-.nav:disabled{opacity:.3}
-.now{flex:1;min-width:0}
-.now .t{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.now .s{font-size:11px;color:var(--mute)}
-select{background:var(--card);color:var(--cream);border:1px solid var(--line);border-radius:8px;padding:6px;font-size:12px}
-label.auto{font-size:11px;color:var(--mute);display:flex;align-items:center;gap:4px;white-space:nowrap}
-.foot{margin-top:22px;font-size:12px;color:var(--mute);line-height:1.6;text-align:center}
-.credit{margin-top:10px}.credit a{color:var(--gold);text-decoration:none}.credit a:hover{text-decoration:underline}
-.warn{margin-top:12px;font-size:12px;color:#e09a7a;text-align:center;display:none}
-</style>
+<meta name="description" content="A free, self-guided audio walking tour of James Baldwin's Saint-Germain-des-Prés, Paris. Seven stops, about three hours, works offline.">
+<meta name="theme-color" content="#14110f">
+<meta property="og:title" content="James Baldwin's Saint-Germain — an audio walking tour">
+<meta property="og:description" content="Seven stops through the Paris neighborhood where a broke 24-year-old from Harlem became a writer. Free, phone-first, works offline.">
+<meta property="og:type" content="website">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="wrap">
@@ -65,204 +29,34 @@ label.auto{font-size:11px;color:var(--mute);display:flex;align-items:center;gap:
   </header>
 
   <div class="route">
-    <a class="btn primary" id="routeLink" target="_blank" rel="noopener">🗺 Open full route in Google Maps</a>
+    <a class="btn primary" id="routeLink" target="_blank" rel="noopener">🗺 Full route in Google Maps</a>
+    <button class="btn" id="locate" type="button" aria-pressed="false">📍 Find nearest stop</button>
   </div>
+  <div class="near" id="near" role="status" aria-live="polite"></div>
 
-  <div class="dots" id="dots"></div>
-  <div id="stop"></div>
-  <div class="warn" id="warn">Your browser doesn't support spoken narration — the text is all here to read along.</div>
+  <nav class="dots" id="dots" aria-label="Tour stops"></nav>
+  <main id="stop"></main>
 
-  <p class="foot">Narration uses your device's built-in voice. Tap any paragraph to start reading from there.<br>Opening hours change — check cafés before you go.</p>
+  <p class="foot">Tap any paragraph to jump the narration there. Add this page to your home screen and it works offline.<br>Opening hours change — check cafés before you go.</p>
+  <p class="foot" id="offline"></p>
   <p class="foot credit">Built by Alex Newton with Claude · <a href="https://www.linkedin.com/in/anewt" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/anewt225/baldwin-paris-audio-tour" target="_blank" rel="noopener">Source</a></p>
 </div>
 
 <div class="player">
+  <div class="bar" id="bar" role="slider" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+    <div class="track"><div class="fill" id="fill"></div><div class="knob" id="knob"></div></div>
+  </div>
   <div class="pin">
     <button class="nav" id="prev" aria-label="Previous stop">‹</button>
     <button class="play" id="play" aria-label="Play">▶</button>
     <button class="nav" id="next" aria-label="Next stop">›</button>
     <div class="now"><div class="t" id="nowT"></div><div class="s" id="nowS"></div></div>
-    <select id="rate" aria-label="Speed">
+    <select id="rate" aria-label="Playback speed">
       <option value="0.9">0.9×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option><option value="1.3">1.3×</option>
     </select>
   </div>
 </div>
 
-<script>
-const STOPS = [
-{
- title:"Hôtel Verneuil", sub:"Where the exile began", addr:"8 Rue de Verneuil, 75007 Paris",
- walk:"Walk east toward Boulevard Saint-Germain — about 8 minutes to the Café de Flore.",
- text:[
- "Welcome. James Baldwin landed in Paris in November 1948 with about forty dollars in his pocket. He was twenty-four. Later he said it wasn't so much that he chose France. He simply had to get out of America.",
- "This narrow street of seventeenth-century facades is where he lived in his early, broke years, at the Hôtel Verneuil, among a loose crew of struggling writers and artists. The building is a boutique hotel now, and it leans into the Baldwin connection.",
- "The story attached to this place is about kindness. When Baldwin fell seriously ill in the winter of 1949, the hotel's owner, a Corsican woman named Madame Dumont, nursed him and let the rent slide for months. In a city he often described as coolly indifferent, that mattered.",
- "Keep that word in mind: indifference. For a Black, gay man who had been watched and policed his whole life in New York, Parisian indifference felt a lot like freedom. Next, we walk to the café where he actually wrote."
- ]
-},
-{
- title:"Café de Flore", sub:"The upstairs room", addr:"172 Boulevard Saint-Germain, 75006 Paris",
- walk:"Cross to the neighboring corner — about 1 minute to Les Deux Magots.",
- text:[
- "Baldwin's hotel rooms were cold and badly lit, so he did what writers here have always done. He came to the café. In his own telling, he would take his notebook upstairs at the Flore, drink a lot of coffee through the day and, as evening came on, a lot of alcohol.",
- "Upstairs here, he kept working on the novel he had carried from Harlem for years, about his stepfather, the storefront church, and the boy he had been. It became Go Tell It on the Mountain, published in 1953.",
- "The Flore mattered for another reason. In the late 1940s and fifties, Saint-Germain was the center of male homosexual life in Paris, and the Flore was one of the cafés where gay men gathered fairly openly. Not legally free, not fully safe, but visible in a way that was close to unthinkable in America.",
- "It was in this neighborhood, in 1949, that Baldwin met Lucien Happersberger, a young Swiss painter who became one of the great loves of his life. If you can, go upstairs and look out the window. This is the view of a man allowed, for once, to be all of himself at the same table."
- ]
-},
-{
- title:"Les Deux Magots", sub:"The first night", addr:"6 Place Saint-Germain-des-Prés, 75006 Paris",
- walk:"Cross Boulevard Saint-Germain — Brasserie Lipp is directly opposite, about 1 minute.",
- text:[
- "On Baldwin's first day in Paris, he came here to meet Richard Wright, the most famous Black writer in the world, author of Native Son. Wright had helped Baldwin get a fellowship back in New York and had become a mentor. Now he was the senior figure of Black expatriate Paris.",
- "Around these tables you'd have found a remarkable community: Wright, the novelist Chester Himes, the cartoonist Ollie Harrington, the writer William Gardner Smith, and later the painter Beauford Delaney, Baldwin's spiritual father, who had taken him in as a teenager in Greenwich Village.",
- "Why cafés? Partly money and cold rooms. But also because for Black Americans in Paris, cafés and restaurants became the places to gather, argue, and look after one another. They could sit down anywhere. Nobody moved away.",
- "But Baldwin was not one to sit quietly at the master's feet. Across the boulevard is where that friendship broke."
- ]
-},
-{
- title:"Brasserie Lipp", sub:"The quarrel with Richard Wright", addr:"151 Boulevard Saint-Germain, 75006 Paris",
- walk:"Head east on Boulevard Saint-Germain to the Odéon crossroads — about 5 minutes.",
- text:[
- "In 1949, Baldwin published an essay called Everybody's Protest Novel, first in a small Paris magazine called Zero. It attacked Uncle Tom's Cabin, and, at the very end, it turned on Native Son. Baldwin argued that protest fiction reduces Black people to a social problem instead of full human beings.",
- "Wright took it as betrayal. Baldwin later recalled that the confrontation came here, at the Brasserie Lipp, where Wright accused him of trying to destroy him. Baldwin's position was that he was trying to find his own voice. Both were probably right.",
- "They never fully repaired it. When Wright died in Paris in 1960, Baldwin wrote a long, loving, merciless essay called Alas, Poor Richard. In it, he faulted Wright for celebrating Paris as a city of refuge, while saying little about how France treated its own colonial subjects.",
- "Which brings us to the part of this story Baldwin's generation couldn't ignore for long."
- ]
-},
-{
- title:"Carrefour de l'Odéon", sub:"Whose city of refuge?", addr:"Carrefour de l'Odéon, 75006 Paris",
- walk:"Walk south up Rue de Condé to Rue de Tournon — about 4 minutes.",
- text:[
- "Stand at this crossroads for a moment. The Paris that welcomed Black Americans was the capital of a colonial empire. From 1954 to 1962, France fought a brutal war to keep Algeria, and in these same streets Algerians and other colonial subjects faced police raids, identity checks, and contempt.",
- "Black Americans noticed an uncomfortable fact. With an American passport, they were often treated better than Africans and Arabs were. The novelist William Gardner Smith, a regular in this neighborhood, built a whole novel around it: The Stone Face, published in 1963.",
- "In it, a Black American expatriate sees the police treat him politely while hauling off an Algerian. Later, near the Odéon, the Algerian's friends taunt him, asking how it feels to be a white man. It's fiction, but it captured a real reckoning.",
- "Baldwin felt it too. He wrote that Paris was a refuge for people like him, armed with American passports, but not for the people France itself had colonized. Many of these writers came to see racism as a global system, and the Algerian struggle reframed how they saw the civil rights fight back home."
- ]
-},
-{
- title:"Café de Tournon", sub:"The heart of Black Paris", addr:"18 Rue de Tournon, 75006 Paris",
- walk:"Walk through the Luxembourg Gardens to Boulevard du Montparnasse — about 20 minutes. A lovely stretch.",
- text:[
- "By the early 1950s, this café at the foot of the Luxembourg Gardens had become the unofficial clubhouse of Black American Paris. Ollie Harrington, the cartoonist and a sharp storyteller, held court here. Wright and Chester Himes were regulars, and the arguments were legendary.",
- "Baldwin came by, though not as often as the others. After the split with Wright, and with his own sharper take on France, he moved somewhat apart from this crowd. Still, this was the world that made his Paris possible: a community of Black artists who had fled the same country and recognized each other.",
- "It also mattered that Paris celebrated Black American culture, above all jazz. Musicians like Sidney Bechet and Kenny Clarke made lives here and were treated as artists, not entertainers on the back stairs. That respect was part of the air Baldwin breathed.",
- "Before you leave, look at the Art Deco details inside. Then take the long way through the gardens. We end in Montparnasse."
- ]
-},
-{
- title:"Le Select", sub:"Giovanni's Room", addr:"99 Boulevard du Montparnasse, 75006 Paris",
- walk:"Main tour complete. Nearest metro: Vavin (lines 4 and 6). <br><br><b>★ Optional bonus:</b> the Médiathèque James Baldwin in the 19th, ~40 min by metro — line 4 from Vavin to Châtelet, then line 11 to Place des Fêtes. Closed Mondays; check hours before you go.",
- text:[
- "Le Select, open since 1923, was one of Baldwin's Montparnasse haunts, and it's often linked with the writing of his second novel, Giovanni's Room.",
- "Published in 1956, Giovanni's Room tells the story of David, a white American in Paris, and his love affair with Giovanni, an Italian bartender. Baldwin's American publisher reportedly told him to burn it. A Black writer, they assumed, should write about race, and certainly not about two men in love.",
- "Baldwin refused. He made the characters white precisely so readers couldn't file the book under the race problem. They would have to face love, shame, and desire head on. It became one of the foundational novels of gay literature.",
- "That book doesn't exist without this neighborhood: the cafés where gay men could be seen, the Black expatriates who made exile bearable, and the distance from America that let him see it clearly. Baldwin once wrote that he loved America more than any other country in the world, and for exactly that reason insisted on the right to criticize her perpetually.",
- "Thank you for walking with him. Order a drink, and if you have one with you, open Giovanni's Room. If you have the energy for one more stop, there's an optional bonus across town."
- ]
-},
-{
- bonus:true,
- title:"Médiathèque James Baldwin", sub:"Bonus · Paris names him", addr:"10 bis Rue Henri Ribière, 75019 Paris",
- walk:"Nearest metro: Place des Fêtes (lines 7bis and 11). Closed Mondays. Hours vary, so check paris.fr before going.",
- text:[
- "Welcome to the bonus stop, far from the cafés of Saint-Germain, up on the hills of the 19th arrondissement. This is Paris's public library named for James Baldwin. It opened in June 2024, the summer of his hundredth birthday. He was born in Harlem on the second of August, 1924.",
- "The site is part of the story. The library was built in a former high school that for years was occupied by migrants and later served as an emergency shelter. Today it shares the site with the city's Maison des Réfugiés, a center for refugees and exiles.",
- "That pairing is deliberate. The collection leans into the themes of Baldwin's life: exile, LGBTQ+ cultures, feminism, and social inclusion. It's a light-filled wooden building, designed by the architect Philippe Madec, and it includes dedicated space for deaf visitors.",
- "Think back to the Odéon stop, and Baldwin's point that Paris was a refuge for Americans with passports but not for the people France had colonized. Here, the city attached his name to a place built around exactly those outsiders. It's a fitting place for his name.",
- "France did honor him in his lifetime too. In 1986, a year before he died at his home in Saint-Paul-de-Vence in the south of France, President François Mitterrand made him a commander of the Légion d'honneur. Go inside, find the Baldwin shelf, and say hello."
- ]
-}
-];
-
-const synth = window.speechSynthesis;
-let cur = 0, playing = false, paraIdx = 0, voice = null;
-const visited = new Set([0]);
-const $ = id => document.getElementById(id);
-
-// Full route link
-(function(){
-  const enc = s => encodeURIComponent(s);
-  const MAIN = STOPS.filter(s=>!s.bonus);
-  const o = MAIN[0].addr, d = MAIN[MAIN.length-1].addr;
-  const w = MAIN.slice(1,-1).map(s=>s.addr).join('|');
-  $('routeLink').href = `https://www.google.com/maps/dir/?api=1&origin=${enc(o)}&destination=${enc(d)}&waypoints=${enc(w)}&travelmode=walking`;
-})();
-
-function pickVoice(){
-  if(!synth) return;
-  const v = synth.getVoices();
-  voice = v.find(x=>/en-(GB|US)/i.test(x.lang) && /natural|premium|enhanced|google/i.test(x.name))
-       || v.find(x=>/en-(GB|US)/i.test(x.lang)) || v.find(x=>/^en/i.test(x.lang)) || null;
-}
-if(synth){ pickVoice(); synth.onvoiceschanged = pickVoice; } else { $('warn').style.display='block'; }
-
-function render(){
-  const s = STOPS[cur];
-  const mainCount = STOPS.filter(x=>!x.bonus).length;
-  $('dots').innerHTML = STOPS.map((x,i)=>`<button class="dot ${i===cur?'on':visited.has(i)?'done':''}" data-i="${i}" title="${x.bonus?'Optional bonus stop':''}">${x.bonus?'★':i+1}</button>`).join('');
-  document.querySelectorAll('.dot').forEach(b=>b.onclick=()=>go(+b.dataset.i));
-  const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(s.title+', '+s.addr)}`;
-  const nxt = STOPS[cur+1];
-  const dirUrl = nxt ? `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(s.addr)}&destination=${encodeURIComponent(nxt.addr)}&travelmode=${nxt.bonus?'transit':'walking'}` : null;
-  $('stop').innerHTML = `
-   <div class="card">
-     <div class="num">${s.bonus?'★ Optional bonus stop':`Stop ${cur+1} of ${mainCount}`}</div>
-     <h2>${s.title}</h2>
-     <div class="sub">${s.sub}</div>
-     <div class="addr"><span>📍 ${s.addr}</span><a class="btn" href="${mapUrl}" target="_blank" rel="noopener">Map</a></div>
-     <div class="text">${s.text.map((p,i)=>`<p data-p="${i}">${p}</p>`).join('')}</div>
-     <div class="walk"><b>Next:</b> ${s.walk}
-       ${dirUrl?`<div style="margin-top:10px"><a class="btn" href="${dirUrl}" target="_blank" rel="noopener">🚶 Walking directions to ${nxt.title}</a></div>`:''}
-     </div>
-   </div>`;
-  document.querySelectorAll('.text p').forEach(p=>p.onclick=()=>{ stop(); paraIdx=+p.dataset.p; start(); });
-  $('nowT').textContent = `${cur+1}. ${s.title}`;
-  $('nowS').textContent = s.sub;
-  $('prev').disabled = cur===0;
-  $('next').disabled = cur===STOPS.length-1;
-  window.scrollTo({top:0,behavior:'smooth'});
-}
-
-function highlight(i){
-  document.querySelectorAll('.text p').forEach(p=>p.classList.toggle('speaking', +p.dataset.p===i && playing));
-}
-
-function speakPara(){
-  const paras = STOPS[cur].text;
-  if(paraIdx >= paras.length){ playing=false; updateBtn(); highlight(-1); return; }
-  highlight(paraIdx);
-  // split into sentences to dodge long-utterance cutoffs in some browsers
-  const chunks = paras[paraIdx].match(/[^.!?]+[.!?]+["']?|[^.!?]+$/g) || [paras[paraIdx]];
-  chunks.forEach((c,ci)=>{
-    const u = new SpeechSynthesisUtterance(c.trim());
-    if(voice) u.voice = voice;
-    u.rate = +$('rate').value;
-    if(ci===chunks.length-1) u.onend = ()=>{ if(!playing) return; paraIdx++; speakPara(); };
-    synth.speak(u);
-  });
-}
-
-function start(){
-  if(!synth) return;
-  playing = true; updateBtn(); synth.cancel();
-  setTimeout(speakPara, 60);
-}
-function stop(){
-  playing = false; if(synth) synth.cancel(); updateBtn(); highlight(-1);
-}
-function updateBtn(){ $('play').textContent = playing ? '■' : '▶'; $('play').setAttribute('aria-label', playing?'Stop':'Play'); }
-
-function go(i){
-  stop(); cur = i; paraIdx = 0; visited.add(i); render();
-}
-
-$('play').onclick = ()=>{ if(playing){ stop(); } else { if(paraIdx>=STOPS[cur].text.length) paraIdx=0; start(); } };
-$('prev').onclick = ()=>cur>0 && go(cur-1);
-$('next').onclick = ()=>cur<STOPS.length-1 && go(cur+1);
-$('rate').onchange = ()=>{ if(playing){ start(); } };
-
-render();
-</script>
+<script type="module" src="app.js"></script>
 </body>
 </html>

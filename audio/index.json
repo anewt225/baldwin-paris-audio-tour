@@ -1,0 +1,87 @@
+{
+  "voice": "en-US-AndrewMultilingualNeural",
+  "stops": {
+    "01-hotel-verneuil": {
+      "file": "01-hotel-verneuil.eec0324b16.mp3",
+      "duration": 64.27,
+      "starts": [
+        0.0,
+        13.42,
+        30.53,
+        49.9
+      ]
+    },
+    "02-cafe-de-flore": {
+      "file": "02-cafe-de-flore.9700afcb18.mp3",
+      "duration": 67.92,
+      "starts": [
+        0.0,
+        16.39,
+        28.99,
+        49.56
+      ]
+    },
+    "03-les-deux-magots": {
+      "file": "03-les-deux-magots.1a4da9d54e.mp3",
+      "duration": 55.18,
+      "starts": [
+        0.0,
+        16.54,
+        33.29,
+        48.5
+      ]
+    },
+    "04-brasserie-lipp": {
+      "file": "04-brasserie-lipp.56a9f50ee4.mp3",
+      "duration": 60.98,
+      "starts": [
+        0.0,
+        21.62,
+        36.24,
+        56.02
+      ]
+    },
+    "05-carrefour-de-l-odeon": {
+      "file": "05-carrefour-de-l-odeon.accae1435a.mp3",
+      "duration": 74.62,
+      "starts": [
+        0.0,
+        21.26,
+        38.95,
+        55.63
+      ]
+    },
+    "06-cafe-de-tournon": {
+      "file": "06-cafe-de-tournon.da556185c3.mp3",
+      "duration": 61.68,
+      "starts": [
+        0.0,
+        18.14,
+        37.08,
+        53.78
+      ]
+    },
+    "07-le-select": {
+      "file": "07-le-select.7caf08f967.mp3",
+      "duration": 77.93,
+      "starts": [
+        0.0,
+        10.01,
+        30.77,
+        45.94,
+        67.63
+      ]
+    },
+    "08-mediatheque-james-baldwin": {
+      "file": "08-mediatheque-james-baldwin.8a154715a1.mp3",
+      "duration": 88.2,
+      "starts": [
+        0.0,
+        18.7,
+        35.38,
+        54.74,
+        70.8
+      ]
+    }
+  }
+}

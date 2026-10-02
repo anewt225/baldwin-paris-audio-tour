@@ -1,0 +1,12 @@
+[project]
+name = "baldwin-tour"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "edge-tts>=7.2.8",
+]
+
+[dependency-groups]
+dev = [
+    "pillow>=12.3.0",
+]
