@@ -29,7 +29,29 @@ sw.js                    ← service worker: offline caching
 manifest.webmanifest     ← installable as an app
 ```
 
+```mermaid
+flowchart LR
+    subgraph build[Build time, on my laptop]
+        S[stops.json<br/>text, addresses, coordinates] --> B[build_audio.py]
+        B -->|each paragraph| TTS[edge-tts<br/>neural voice]
+        TTS --> B
+        B --> MP3[audio/NN-stop.hash.mp3<br/>one file per stop]
+        B --> IDX[audio/index.json<br/>paragraph start times]
+    end
+    subgraph phone[On the phone]
+        P[index.html + app.js] --> SW[sw.js<br/>service worker]
+        SW -->|first visit| C[(Offline cache<br/>about 3.5 MB)]
+        SW -->|range request| R[206 Partial Content<br/>served from the cached MP3]
+        P --> GEO[Find nearest stop<br/>location only if allowed]
+    end
+    S --> P
+    MP3 --> SW
+    IDX --> P
+```
+
 **The script is data.** All the writing lives in `stops.json`. `build_audio.py` sends each paragraph to a neural voice through [edge-tts](https://github.com/rany2/edge-tts), joins the clips into one MP3 per stop, and records each paragraph's start time. That's what makes tap-to-seek and highlighting work without speech-to-text alignment. Each file name includes a hash of its text, so editing one stop re-renders only that stop. Phones also pick up the new audio instead of a stale cached copy.
+
+To change the narration you need [uv](https://docs.astral.sh/uv/) and Python 3.14 or later (set in `pyproject.toml`):
 
 ```bash
 uv sync
@@ -44,6 +66,13 @@ uv run scripts/make_icons.py       # regenerate app icons
 ## Working with AI
 
 Claude was a collaborator throughout: researching the history, drafting and tightening the narration, and writing and testing the code. I directed the scope, chose the route, and fact-checked the claims. I also made the product decisions: recorded audio instead of the device voice, offline-first, and location as opt-in. The commit history shows how it evolved.
+
+## What this shows
+
+- **Testing in real conditions.** v1 worked at a desk and failed on a walk: the voice changed from phone to phone, and playback stopped when the screen locked. v2 is the result of testing where the product is actually used, then fixing what broke there.
+- **Content separated from code.** The narration lives in one data file, so editing the text doesn't touch the app. And because audio files are named by a hash of their text, a change to one stop re-renders and re-downloads only that stop.
+- **Privacy by default.** Location is opt-in and never leaves the phone (the distance math runs in the browser). There's no analytics and no account.
+- **A scoped AI collaboration.** Claude did the research legwork, the drafting and the code. Scope, route, fact-checking and every product decision were mine.
 
 ## Sources & further reading
 

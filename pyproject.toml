@@ -1,6 +1,7 @@
 [project]
 name = "baldwin-tour"
 version = "0.1.0"
+description = "Self-guided audio walking tour of James Baldwin's Saint-Germain (static PWA + edge-tts narration build)"
 requires-python = ">=3.14"
 dependencies = [
     "edge-tts>=7.2.8",
